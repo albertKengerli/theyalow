@@ -1,0 +1,29 @@
+body {
+  width: 1300px;
+  height: 1847px;
+  margin: 0% auto;  
+}
+
+header {
+  height: 565px;
+  
+}
+
+#logo h1 {
+  float: left;
+  margin: 60px 0 0 5px;
+  
+  color: #ffffff;
+  font-family: "Lucida Sans", "Futura", sans-serif;
+  font-size: 41px;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 0.41px;
+  line-height:0.8;
+}
+
+#logo img {
+  float:left;
+  clear: right;
+  margin: 28px 0 0 140px;
+}
