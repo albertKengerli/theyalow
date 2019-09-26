@@ -5,25 +5,85 @@ body {
 }
 
 header {
-  height: 565px;
-  
+  /*height: 565px;
+  background-image: url(assets/header_background.svg);*/
+  background-color: green;
 }
 
 #logo h1 {
   float: left;
   margin: 59.5px 0 0 4px;
   
-  color: #fff;
-  font-family: "Lucida Sans", "Futura", sans-serif;
-  font-size: 41px;
   font-style: italic;
-  text-transform: uppercase;
+  font-size: 41px;
+  line-height: 0.8;
+  font-family: "Lucida Sans", "Futura", sans-serif;
   letter-spacing: 0.41px;
-  line-height:0.8;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 #logo img {
-  float:left;
+  float: left;
   clear: right;
   margin: 28px 0 0 140px;
 }
+
+nav ul {
+  width: 453px;
+  height: 41px;
+  float: right;
+  display: grid;
+  grid-template-columns: 171.7px 134px 148px;
+  margin: 71px 140px 0 0;
+  
+  background-color: #f5c506;
+  box-shadow: -4px -5px 0px 0px rgba(245, 197, 6, 0.27), 
+              -8px -8px 0px 0px rgba(245, 197, 6, 0.27);
+}
+
+nav img {
+  float: left;
+  clear: right;
+  margin-top: 11px;
+}
+
+#about img {
+  margin-left: 39px;
+}
+
+#services {
+  border-right: 1px solid #dcb105;
+  border-left: 1px solid #dcb105;
+}
+
+#services img {
+  margin-left: 14px;
+}
+
+#contact img {
+  margin-left: 17.2px;
+}
+
+nav a {
+  display: block;
+  float: left;
+  margin: 14px 0 0 9px;
+  
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 0.7;
+  font-family: "Segoe WP";
+  text-transform: uppercase;
+  letter-spacing: 0.17px;
+  text-decoration: none;
+  color: #9b7d08;
+}
+
+#contact a {
+  margin-left: 7.8px;
+}
+
+nav li:hover {
+  filter: brightness(1000000%);
+} 
