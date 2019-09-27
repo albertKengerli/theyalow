@@ -379,7 +379,7 @@ img.plus:hover {
 #advertise h2 {
   padding: 48.5px 0 0 350px;
 
-  font-weight: 400;
+  font-weight: 500;
   font-size: 43px;
   line-height: 0.7;
   font-family: "PT Sans";
@@ -422,4 +422,19 @@ img.plus:hover {
 #advertise span {
   position: relative;
   left: 14px;
+}
+
+
+/*                    Footer                          */
+
+
+footer {
+  height: 64px;
+
+  background-color: #4c4c4c;
+}
+
+footer img {
+  margin: 5px 140px;
+  
 }
