@@ -70,7 +70,7 @@ nav a {
   float: left;
   margin: 14px 0 0 9px;
   
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
   line-height: 0.7;
   font-family: "Segoe WP";
@@ -87,3 +87,65 @@ nav a {
 nav li:hover {
   filter: brightness(1000000%);
 } 
+
+video {
+  width: 549px;
+  height: 327px;
+
+  float:left;
+  clear:both;
+  margin: 56.3px 0 0 150px;
+}
+
+#top h2 {
+  float:left;
+  clear:right;
+
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 0.7;
+  font-family: "Asap";
+  letter-spacing: 0.63px;
+  text-transform: uppercase;
+    
+  color: #f5c506;
+}
+
+#top h2 p:first-child {
+  margin: 144.7px 0 0 90px;
+}
+
+#top h2 p:last-child {
+  margin-top: 31.2px;
+  margin-left: 49.8px;
+
+  color: #ffffff;
+}
+
+img.control.left {
+  position: relative;
+  top: 300px;
+  left: -452px;
+
+  opacity: 0.71;
+}
+
+img.control.right {
+  position: relative;
+  top: 300px;
+  left: 780.2px;
+  align-content: right;
+
+}
+
+img.control:hover {
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 10px #ffffff);
+}
+
+#top {
+  width: 100%;
+  height: 566px;
+  background-image: url("assets/top-background.jpg")
+}
+
