@@ -4,9 +4,8 @@ body {
   margin: 0% auto;  
 }
 
+/* *Header */
 header {
-  /*height: 565px;
-  background-image: url(assets/header_background.svg);*/
   background-color: green;
 }
 
@@ -88,6 +87,13 @@ nav li:hover {
   filter: brightness(1000000%);
 } 
 
+/* *Top Section */
+
+#top {
+  height: 566px;
+  background-image: url("assets/top-background.jpg")
+}
+
 video {
   width: 549px;
   height: 327px;
@@ -143,9 +149,55 @@ img.control:hover {
   filter: drop-shadow(0px 0px 10px #ffffff);
 }
 
-#top {
-  width: 100%;
-  height: 566px;
-  background-image: url("assets/top-background.jpg")
+/* *Icons section*/
+
+section#icons {
+  height: 212px;
+
+  background-image: url("assets/section2-background.png")
 }
 
+#icon-container {
+  height: 100%;
+  margin: 0 139px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+     
+}
+
+div.borders {
+  display: grid;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3
+}
+
+div.icon {
+  margin: auto;
+  display: grid;
+  justify-items: center;
+}
+
+div.icon > span {
+  font-family: "Segoe UI";
+  font-size: 27px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
+
+}
+
+#design {
+  margin-top: 18px;
+}
+
+#customise {
+  margin-top: 22px;
+}
+
+#free {
+  margin-top: 17px;
+}
+
+div.borders.middle {
+  border: none;
+}
