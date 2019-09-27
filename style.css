@@ -4,10 +4,10 @@ body {
   margin: 0% auto;  
 }
 
-/* *Header */
-header {
-  background-color: green;
-}
+
+/*                    Header                       */
+
+
 
 #logo h1 {
   float: left;
@@ -87,14 +87,17 @@ nav li:hover {
   filter: brightness(1000000%);
 } 
 
-/* *Top Section */
+
+/*                    Top section                       */
+
+
 
 #top {
   height: 566px;
   background-image: url("assets/top-background.jpg")
 }
 
-video {
+#top video {
   width: 549px;
   height: 327px;
 
@@ -149,12 +152,15 @@ img.control:hover {
   filter: drop-shadow(0px 0px 10px #ffffff);
 }
 
-/* *Icons section*/
+
+/*                    Icons section                       */
+
+
 
 section#icons {
   height: 212px;
 
-  background-image: url("assets/section2-background.png")
+  background-image: url("assets/icons-background.png")
 }
 
 #icon-container {
@@ -200,4 +206,162 @@ div.icon > span {
 
 div.borders.middle {
   border: none;
+}
+
+
+/*                    News section                       */
+
+
+
+section#news {
+  height: 508px;
+  
+  background-image: url(assets/news-background.jpg);
+}
+
+#news h2 {
+  padding: 42.9px 0 0 140px;
+
+  font-weight: 400;
+  font-size: 37px;
+  font-family: "PT Sans";
+  line-height: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 0.37px;
+
+  color: #ffffff;
+}
+
+div#add {
+  width: 341px;
+  height: 233px;
+  float: left;
+  clear: right;
+  margin: 41.7px 0 0 139px;
+  background-color: #ec9e03;
+}
+
+div#add p {
+
+  padding: 16px 0 0 30px;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 38px;
+  font-family: "Segoe WP";
+  letter-spacing: 0.29px;
+
+  color: #ffffff;
+}
+
+#add img.plus {
+  float: right;
+  padding: 3.7px 14px 0 0;
+}
+
+#news video {
+  float: left;
+  clear: right;
+  margin-top: 41.7px;
+  width: 315px;
+  height: 232px;
+}
+
+#twitter {
+  float: left;
+  /* clear: right; */
+  margin: 41.7px 0 0 34.3px;
+  width: 329px;
+  height: 233px;
+
+  background-image: url(assets/twitter-background.png);
+}
+
+#twitter span {
+  display: block;
+  margin: 19px 0 0 285px;
+  
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 0.7;
+  font-family: "Segoe WP";
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+#twitter img.plus {
+  margin: 173px 0 0 309px;
+}
+
+#date {
+  float: left;
+  margin-left: 139px;
+  width: 113px;
+  height: 86px;
+
+  background-color: #ddb101;
+}
+
+#date span:first-child {
+  display: block;
+  margin: 13px 0 0 29.2px;
+  
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 0.7;
+  font-family: "Segoe UI";
+  letter-spacing: 0.51px;
+
+  color: #ffffff;
+}
+
+#date span:last-child {
+  margin-left: 31.8px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 0.7px;
+  font-family: "Segoe UI";
+  text-transform: uppercase;
+  letter-spacing: 0.21px;
+  
+  color: #b26529;
+}
+#news input {
+  margin: 43px 0 0 213px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 896px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.48);
+
+  border-radius: 15px;
+}
+
+#news input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 197px;
+  height: 15px;
+  background: #ec9e03;
+  cursor: pointer;
+
+  border-radius: 15px;
+}
+
+#news input::-moz-range-thumb {
+  appearance: none;
+  width: 197px;
+  height: 15px;
+  background: #ec9e03;
+  cursor: pointer;
+
+  border-radius: 15px;
+}
+
+img.plus {
+  cursor: pointer;
+}
+
+img.plus:hover {
+  filter: drop-shadow(2px 2px 3px #ffffff);
+  filter: drop-shadow(-2px -2px 3px #ffffff);
 }
