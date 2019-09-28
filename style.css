@@ -83,10 +83,6 @@ nav a {
   color: #9b7d08;
 }
 
-#contact a {
-  margin-left: 7.8px;
-}
-
 nav li:hover {
   filter: brightness(1000000%);
 } 
@@ -101,7 +97,12 @@ nav li:hover {
   background-image: url("assets/top-background.jpg")
 }
 
-#top video {
+#top video.mobile {
+  display: none;
+  overflow: hidden;
+}
+
+#top video.desktop {
   width: 549px;
   height: 327px;
 
@@ -452,8 +453,8 @@ footer img {
     width: 640px;
     height: 1553px;
   }
-
-  /* HEADER */
+  
+  /*               HEADER            */
   header {
     height: 62px;
   }
@@ -472,12 +473,8 @@ footer img {
   }
 
   div#logo {
-    width: 186px;
+    width: 185px;
     float: left;
-  }
-
-  nav li > * {
-    margin: 0 0;
   }
 
   nav ul img {
@@ -485,10 +482,10 @@ footer img {
   }
   
   nav ul {
-    width: 454px;
+    width: 455px;
     height: 62px;
     float: none;
-    margin: 0;
+    margin: 0 0;
     grid-template-columns: 171px 133px 149px;
     
     box-shadow: none;
@@ -496,27 +493,49 @@ footer img {
   }
 
   nav a {
+    margin: 0 0;
+
     font-weight: 400;
     font-size: 19px;
   }
 
   nav li {
-    margin-top: 25px;
+    padding-top: 25px;
   }
   #about a {
-    margin-left: 58px;
+    padding-left: 58px;
   }
 
   #services a {
-    margin-left: 38px;
+    padding-left: 38px;
   }
 
   #contact a {
-    margin-left: 52px;
+    padding-left: 52px;
   }
     
+  /*               Top section            */
 
+  img.control {
+    display: none;
+  }
+  #top {
+    background-image: none;
+    height: 327px;
+  }
+  #top h2 {
+    display: none;
+  }
 
+  #top video.desktop {
+    display: none;
+  }
+
+  #top video.mobile {
+    display: block;
+    margin: 0 0;
+    
+  }
     
     
   
