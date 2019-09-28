@@ -297,6 +297,10 @@ div#add p {
   margin: 173px 0 0 309px;
 }
 
+div.tweet {
+  display: none;
+}
+
 #date {
   float: left;
   margin-left: 139px;
@@ -330,7 +334,7 @@ div#add p {
   
   color: #b26529;
 }
-#news input {
+#news input[type="range"] {
   margin: 43px 0 0 213px;
   -webkit-appearance: none;
   appearance: none;
@@ -539,7 +543,7 @@ footer img {
   #top video.mobile {
     position: relative;
     z-index: 1;
-    
+
     display: block;
     margin: 0 0;
     
@@ -550,6 +554,8 @@ footer img {
   section#icons {
     position: relative;
     bottom: 9px;
+    z-index: 3;
+    
     height: 179px;
 
     background-image: url(assets/section2-background-mobile.png);
@@ -585,4 +591,133 @@ footer img {
     border: 0;
   }
 
+
+  /*              News section            */
+
+  section#news {
+    position: relative;
+    bottom: 9px; 
+    
+
+    background-image: none;
+  }
+
+  section#news h2 {
+    display: none;
+  }
+
+  section#news div#date {
+    display: none;
+  }
+
+  section#news input[type="range"] {
+    display: none;
+  }
+
+  div#add {
+    margin: 11px 0 0 9px;
+    width: 299px;
+  }
+
+  div#add p {
+    display: inline-block;
+    padding: 16px 0 0 26px;
+    width: 239px;
+
+    font-size: 29px;
+    line-height: 33.31px;
+    letter-spacing: 0.33px;
+  }
+
+  div#add img.plus {
+    padding: 203.5px 11.6px 0 0;
+  }
+
+  section#news video {
+    margin: 11px 0 0 9px;
+  }
+
+  div#twitter {
+    margin: 8px 0 0;
+    width: 100%;
+
+    background-image: url(assets/twitter-background-mobile.png);
+  }
+
+  div#twitter span {
+    display: none;
+  }
+
+  div#twitter img.plus {
+    display: none;
+  }
+
+  div.tweets {
+    margin: 23px 0 0 324px;
+  }
+
+  div.tweet {
+    display: block;
+    width: 285px;
+    height: 42px;
+    margin-bottom: 14px;
+  }
+
+  div.tweet p {
+    display: inline-block;
+    margin: 6px 40px 0 28px;
+
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.2;
+    font-family: "Segoe WP";
+    letter-spacing: 0.13px;
+
+    color: #8f8e8e;
+  }
+
+  div.tweet.first {
+    background-image: url(assets/bubble.png);
+  }
+
+  div.tweet.second {
+    background-image: url(assets/bubble2.png);
+  }
+
+  div.tweet.third {
+    background-image: url(assets/bubble3.png);
+  }
+
+  form {
+    margin-left: 337px;
+  }
+
+  input[type="submit"] {
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%); */
+    width: 69px;
+    height: 31px;
+    float: left;
+    padding: 0 5px 1px 0;
+
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Segoe WP";
+    letter-spacing: 0.15px;
+
+    color: #ffffff;
+    background-image: url(assets/button-submit.png);
+    background-color: transparent;
+    border: 0;    
+  }
+
+  input[type="text"] {
+    width: 192px;
+    height: 29px;
+    padding-left: 10px;
+    float: left;
+
+    background-image: url(assets/input-text.png);
+    background-color: transparent;
+    border: 0;
+  }
 }  
