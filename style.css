@@ -451,9 +451,13 @@ footer {
   background-color: #4c4c4c;
 }
 
-footer img {
+footer img.desktop {
   margin: 5px 140px;
   
+}
+
+footer img.mobile {
+  display: none;
 }
 
 
@@ -737,6 +741,8 @@ footer img {
   #advertise {
     position: relative;
     top: -9px;
+
+    height: 466px;
   }
 
   #advertise h2 {
@@ -761,5 +767,24 @@ footer img {
     display: none;
   }
 
-  /*              Advertise section            */
+  /*              Footer              */
+
+  footer {
+    position: relative;
+    top: -9px;
+
+    height: 43px;
+
+    box-shadow: 0px 0px 6px 0px #000000;
+  }
+
+  footer img.desktop {
+    display: none;
+  }
+
+  footer img.mobile {
+    display: block;
+    padding: 6px 0 0 65px;
+    width: 133px;
+  }
 }  
