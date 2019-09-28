@@ -456,7 +456,12 @@ footer img {
   
   /*               HEADER            */
   header {
+    position: relative;
+    z-index: 2;
+    
     height: 62px;
+    
+    box-shadow: 0px 0px 5px 0px #000000;
   }
 
   #logo h1 {
@@ -532,6 +537,9 @@ footer img {
   }
 
   #top video.mobile {
+    position: relative;
+    z-index: 1;
+    
     display: block;
     margin: 0 0;
     
