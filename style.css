@@ -83,6 +83,10 @@ nav a {
   color: #9b7d08;
 }
 
+nav li:last-child a {
+  margin-left: 8px;
+}
+
 nav li:hover {
   filter: brightness(1000000%);
 } 
@@ -125,11 +129,13 @@ nav li:hover {
   color: #f5c506;
 }
 
-#top h2 p:first-child {
+#top h2 span:first-child {
+  display: block;
   margin: 144.7px 0 0 90px;
 }
 
-#top h2 p:last-child {
+#top h2 span:last-child {
+  display: block;
   margin-top: 31.2px;
   margin-left: 49.8px;
 
@@ -260,7 +266,7 @@ div#add p {
 
 #add img.plus {
   float: right;
-  padding: 3.7px 14px 0 0;
+  padding: 41px 14px 0 0;
 }
 
 #news video {
@@ -312,7 +318,7 @@ div.tweet {
 
 #date span:first-child {
   display: block;
-  margin: 13px 0 0 29.2px;
+  margin: 14px 0 0 29.2px;
   
   font-weight: 700;
   font-size: 51px;
