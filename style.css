@@ -420,25 +420,40 @@ img.plus:hover {
 
 #advertise ul {
   float: left;
-  margin: 101.1px 0 0 98.4px;
+  margin: 101px 0 0 101px;
 
   list-style-image: url("assets/list-point.svg");
 }
 #advertise li {
   width: 379px;
-  padding-bottom: 21px;
-
+  
   font-weight: 400;
   font-size: 22px;
-  line-height: 1.3em;
+  line-height: 1.2em;
   font-family: "Open Sans";
   letter-spacing: 0.22px;
   color: #a9a9a7;
 }
 
+#advertise li:nth-child(1) {
+  padding-bottom: 24px;
+}
+
+#advertise li:nth-child(2) {
+  padding-bottom: 14px;
+}
+
+#advertise li:nth-child(3) {
+  padding-bottom: 25px;  
+}
+
 #advertise span {
   position: relative;
-  left: 14px;
+  left: 12px;
+} 
+
+#advertise li:first-child span {
+  top: 2px;
 }
 
 
