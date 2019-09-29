@@ -555,6 +555,10 @@ footer img.mobile {
   #contact a {
     padding-left: 52px;
   }
+
+  nav li:last-child a {
+    margin-left: 0;
+  }
     
   /*               Top section            */
 
